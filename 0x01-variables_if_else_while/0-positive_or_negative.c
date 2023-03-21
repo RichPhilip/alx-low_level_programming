@@ -1,26 +1,19 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
-/* more header goes here. */
-
-
+#include<stdio.h>
 /**
- *  * main - Entry point
- *   * Description: if-else program.
- *    * Return: (0) always - Success
- *     */
+ * main - alpabet in descending order
+ * Return: 0(success)
+ */
 int main(void)
 {
-		int n;
 
-			srand(time(0));
-				n = rand() - RAND_MAX / 2;
-					/* your code goes here */
-					if (n > 0)
-								printf("%i is positive\n", n);
-						else if (n == 0)
-									printf("%i is zero\n", n);
-							else
-										printf("%i is negative\n", n);
-								return (0);
+	char c;
+
+	c = 'z';
+	while (c >= 'a')
+	{
+		putchar(c);
+		c--;
+	}
+	putchar('\n');
+	return (0);
 }
