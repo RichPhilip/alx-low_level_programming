@@ -1,11 +1,14 @@
 #include <stdio.h>
+
 /**
- *  * main - my starting point
- *   * Return: The return value should be 0
- *    */
+ *  * main - Prints a string
+ *   *
+ *    * Return: 0 when successful
+ *     */
 
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
-return (0);
+		printf("with proper grammar, but the outcome is a piece of art,\n");
+			return (0);
 }
+0 comments on commit
