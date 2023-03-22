@@ -1,16 +1,11 @@
 #include "main.h"
+
 /**
- * _islower - Checks for character
- * @c: Characyer  to be be checked
- * Retrun: 1 for alphabetic character or 0 for anything else
+ * _isalpha - checks for alphabetical letters
+ * @c: a charter to be checke on
+ * Return: returns 0 or 1 depending on condition
  */
-
 int _isalpha(int c)
-
 {
-if ((c >= 65 && <= 97) || (c >= 97 && <= 122))
-{
-return (1);
-}
-return (0);
+		return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
