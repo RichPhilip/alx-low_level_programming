@@ -1,12 +1,14 @@
 #include "main.h"
 /**
- * _islower - _isalpha_checks for alphabet
- * @c: alpha to be be checked
- * Retrun: Returns 1 if c is a letter, lowercase or uppercas
+ * _islower - Checks for character
+ * @c: Characyer  to be be checked
+ * Retrun: 1 for alphabetic character or 0 for anything else
  */
-int _isalpha(int c)
-{
 
+int _isalpha(int c)
+
+{
+	
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 	{
 	return (1);
